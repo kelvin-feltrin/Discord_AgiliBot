@@ -1,3 +1,5 @@
+import discord
+
 def get_response(message: str) -> str:
     p_message = message.lower()
 
@@ -19,3 +21,6 @@ def get_response(message: str) -> str:
             return message_formatted
         else:
             return 'Comando inválido! Digite `!livro titulo; autor; categoria; link`'
+
+    if p_message.startswith('!comando'):
+        return 'Para ver a lista de comandos acesse: <https://github.com/kelvin-feltrin/Discord_AgiliBot/tree/main#readme>'
