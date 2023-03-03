@@ -11,3 +11,5 @@ Projeto desenvolvido em Python com o objetivo de criar um bot para o Discord. El
 | !hello                                   | Manda uma mensagem com hello world                                       |
 | !livro                                   | Manda uma mensagem mostrando como usar o comando de livro corretamente   |
 | !livro titulo; autor; categoria; link    | Manda uma mensagem formatada automáticamente com as informações do livro |
+| !ping                                    | Manda uma mensagem escrito pong                                          |
+| !pong                                    | Manda uma mensagem escrito ping                                          |

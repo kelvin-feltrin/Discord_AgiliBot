@@ -5,6 +5,12 @@ def get_response(message: str) -> str:
 
     if p_message == '!hello':
         return 'Hello world!'
+    
+    if p_message == '!ping':
+        return 'pong'
+    
+    if p_message == '!pong':
+        return 'ping'
 
     if p_message.startswith('!livro'):
         text_params = message.replace('!livro', '')
